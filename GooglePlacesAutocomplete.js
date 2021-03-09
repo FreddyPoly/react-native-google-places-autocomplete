@@ -731,8 +731,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       supportedPlatform() &&
       (stateText !== '' ||
         props.predefinedPlaces.length > 0 ||
-        props.currentLocation === true) &&
-      listViewDisplayed === true
+        props.currentLocation === true)
     ) {
       return (
         <FlatList
